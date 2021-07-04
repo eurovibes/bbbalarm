@@ -1,0 +1,29 @@
+Drill report for /github/workspace/bbbalarm.kicad_pcb
+Created on Sun Jul  4 13:04:41 2021
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'bbbalarm-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (4 holes)
+    T2  0.80mm  0.031"  (24 holes)
+    T3  0.90mm  0.035"  (8 holes)
+    T4  1.00mm  0.039"  (3 holes)
+    T5  1.02mm  0.040"  (92 holes)
+    T6  1.10mm  0.043"  (18 holes)
+    T7  1.15mm  0.045"  (4 holes)
+
+    Total plated holes count 153
+
+
+Drill file 'bbbalarm-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.10mm  0.043"  (8 holes)
+
+    Total unplated holes count 8
