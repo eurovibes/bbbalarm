@@ -25,6 +25,20 @@ filters:
      - column: Reference
        regex: '^(G|#|TP|F).*'
 
+ - name: 'only_jlc_parts'
+   comment: 'Only parts with JLC (LCSC) code'
+   type: generic
+   include_only:
+     - column: 'LCSC#'
+       regex: '^C\d+'
+
+variants:
+  - name: rotated
+    comment: 'Just a place holder for the rotation filter'
+    type: kibom
+    variant: rotated
+    pre_transform: _rot_footprint
+
 outputs:
   - name: 'print_sch'
     comment: "Print schematic (PDF)"
@@ -61,29 +75,25 @@ outputs:
     options: &bom_options
       columns:
         - Row
-        - field: References
-          name: Referencias
-        - field: Part
-          name: Parte
-        - field: Value
-          name: Valor
-        - field: manf#
+        - field: Referenz
+          name: References
+        - field: Wert
+          name: Value
+        - field: ManuPart#
           name: P/N
-        - field: manf
-          name: Fabricante
-        - field: digikey#
-          name: 'Cod. Digi-Key'
+        - Manufacture
+        - field: LCSC
+          name: JLPCB Part#
         - Footprint
         - field: Desc
-          name: Descripción
+          name: Description
         - 'Quantity Per PCB'
-      group_fields:  ['digikey#', 'Part']
+      group_fields:  ['LCSC', 'ManuPart#']
       normalize_values: true
       normalize_locale: true
       exclude_filter: 'exclude_any'
       html:
         logo: 'images/bbbalarm.png'
-        digikey_link: 'digikey#'
         highlight_empty: false
 
   - name: 'bom_xlsx'
