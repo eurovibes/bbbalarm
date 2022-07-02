@@ -1,17 +1,9 @@
-Row,Referencias,Parte,Valor,P/N,Fabricante,Cod. Digi-Key,Footprint,Descripción,Quantity Per PCB
-1,C101,C,100 nF,,,,C_0402_1005Metric,,1
-2,D114,1N4004,1N4004,,,,D_DO-41_SOD81_P10.16mm_Horizontal,,1
-3,D101 D102 D103 D104,LED,LED,,,,LED_D3.0mm,,4
-4,J101 J102 J103,Conn_01x02,IN0,,,,TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree,,3
-5,J104 J105 J106,Conn_01x03,PIR0,,,,"TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal",,3
-6,JP105 JP106 JP107 JP108,SolderJumper_2_Open,A2,,,,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,4
-7,P8 P9,Conn_02x23_Odd_Even,BeagleBone_Black_Header,,,,Socket_BeagleBone_Black,,2
-8,R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113,R,1 kΩ,,,,R_0402_1005Metric,,13
-9,SW101 SW102,SW_Push_45deg,Reset,,,,SW_PUSH_6mm,,2
-10,U103,AT24CS64-SSHM,AT24C512C-SSHD-T,,,,SOIC-8_3.9x4.9mm_P1.27mm,,1
-11,U101,HCPL-263N,HCPL-263N,,,,DIP-8_W7.62mm,,1
-12,U102,SHT35-DIS,SHT35-DIS,,,,Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm,,1
-13,U104,WPMDH1100xx1S,WPMDH1100xx1S,,,,WPMDH1100xx1S,,1
+Row,References,Value,P/N,Manufacture,JLPCB Part#,Footprint,Description,Quantity Per PCB
+1,,,CL05B104KO5NNNC,Samsung Electro-Mechanics,C1525,C_0402_1005Metric,,26
+2,,,KT-0603R,Hubei KENTO Elec,C2286,LED_D3.0mm,,4
+3,,,0402WGF1001TCE,UNI-ROYAL(Uniroyal Elec),C11702,R_0402_1005Metric,,5
+4,,,AT24C256C-SSHL-T,Microchip Tech,C6482,SOIC-8_3.9x4.9mm_P1.27mm,,1
+5,,,SHT35-DIS-B2.5KSIC,Sensirion,C90161,Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm,,1
 
 
 
@@ -24,7 +16,7 @@ Revision:,0.1
 Date:,2021-06-13
 KiCad Version:,6.0.5+dfsg-1~bpo11+1
 Statistics:
-Component Groups:,13
+Component Groups:,5
 Component Count:,37
 Fitted Components:,37
 Number of PCBs:,1
