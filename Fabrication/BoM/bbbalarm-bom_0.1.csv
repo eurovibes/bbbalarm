@@ -1,9 +1,12 @@
-Row,References,Value,P/N,Manufacture,JLPCB Part#,Footprint,Description,Quantity Per PCB
-1,,,CL05B104KO5NNNC,Samsung Electro-Mechanics,C1525,C_0402_1005Metric,,26
-2,,,KT-0603R,Hubei KENTO Elec,C2286,LED_D3.0mm,,4
-3,,,0402WGF1001TCE,UNI-ROYAL(Uniroyal Elec),C11702,R_0402_1005Metric,,5
-4,,,AT24C256C-SSHL-T,Microchip Tech,C6482,SOIC-8_3.9x4.9mm_P1.27mm,,1
-5,,,SHT35-DIS-B2.5KSIC,Sensirion,C90161,Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm,,1
+Row,Reference,Value,P/N,Manufacture,JLPCB Part#,Footprint,Description,Quantity Per PCB
+1,,100 nF,CL05B104KO5NNNC,Samsung Electro-Mechanics,C1525,C_0402_1005Metric,16V 100nF X7R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,24
+2,,1N4004,1N4004,DIOTEC SEMICONDUCTOR,,D_DO-41_SOD81_P10.16mm_Horizontal,rectifying; THT; 400V; 1A; Ammo Pack; Ifsm: 30A; DO41; 1.5us,1
+3,,LED green,OSG5TA34E4A,OPTOSUPPLY,C2286,LED_D3.0mm,LED diode green 3mm 200~330mcd 20mA 140° THT,2
+4,,LED red,OSR5JA34E4A,OPTOSUPPLY,C2286,LED_D3.0mm,LED diode red 3mm 68~100mcd 20mA 140° THT,2
+5,,1 kΩ,0402WGF1001TCE,UNI-ROYAL(Uniroyal Elec),C11702,R_0402_1005Metric,1/16W Thick Film Resistors 50V ±1% ±100ppm/℃ -55℃~+155℃ 1kΩ 0402  Chip Resistor - Surface Mount ROHS,5
+6,,AT24C512C-SSHD-T,AT24C256C-SSHL-T,Microchip Tech,C6482,SOIC-8_3.9x4.9mm_P1.27mm,SOIC-8_150mil  EEPROM ROHS,1
+7,,SHT35-DIS,SHT35-DIS-B2.5KSIC,Sensirion,C90161,Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm,"±1.5% RH 0 ~ 100% RH Humidity, Temperature I²C DFN-8  Humidity Sensors/Temperature and Humidity Sensors ROHS",1
+8,,WPMDH1100xx1S,TSN 1-2450,,,WPMDH1100xx1S,TRACO POWER,1
 
 
 
@@ -16,7 +19,7 @@ Revision:,0.1
 Date:,2021-06-13
 KiCad Version:,6.0.5+dfsg-1~bpo11+1
 Statistics:
-Component Groups:,5
+Component Groups:,8
 Component Count:,37
 Fitted Components:,37
 Number of PCBs:,1

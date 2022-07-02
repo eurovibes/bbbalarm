@@ -1,1 +1,7 @@
 "Comment","Designator","Footprint","LCSC Part #"
+"100n","C101","C_0402_1005Metric","C1525"
+"LED green","D103,D104","LED_D3.0mm","C2286"
+"LED red","D101,D102","LED_D3.0mm","C2286"
+"1k","R101,R102,R103,R104,R113","R_0402_1005Metric","C11702"
+"AT24C512C-SSHD-T","U103","SOIC-8_3.9x4.9mm_P1.27mm","C6482"
+"SHT35-DIS","U102","Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm","C90161"
