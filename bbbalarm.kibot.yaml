@@ -75,18 +75,15 @@ outputs:
     options: &bom_options
       columns:
         - Row
-        - field: Referenz
-          name: References
-        - field: Wert
-          name: Value
+        - Reference
+        - Value
         - field: ManuPart#
           name: P/N
         - Manufacture
-        - field: LCSC
+        - field: LCSC#
           name: JLPCB Part#
         - Footprint
-        - field: Desc
-          name: Description
+        - field: Description
         - 'Quantity Per PCB'
       group_fields:  ['LCSC', 'ManuPart#']
       normalize_values: true
