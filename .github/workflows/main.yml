@@ -5,13 +5,13 @@ name: "KiCad CI/CD for bbbalarm Beaglebon Black Cape"
 on:
   push:
     paths:
-      - '*.sch'
+      - '*.kicad_sch'
       - '*.kicad_pcb'
       - '*.kibot.yaml'
       - '.github/workflows/main.yml'
   pull_request:
     paths:
-      - '*.sch'
+      - '*.kicad_sch'
       - '*.kicad_pcb'
       - '*.kibot.yaml'
       - '.github/workflows/main.yml'
@@ -23,14 +23,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: INTI-CMNB/KiBot@v1
+    - uses: INTI-CMNB/KiBot@v2_k6
       with:
         # Required - kibot config file
         config: bbbalarm.kibot.yaml
         # optional - prefix to output defined in config
         dir: 'Fabrication'
         # optional - schematic file
-        schema: 'bbbalarm.sch'
+        schema: 'bbbalarm.kicad_sch'
         # optional - PCB design file
         board: 'bbbalarm.kicad_pcb'
         verbose: 1
