@@ -1,8 +1,10 @@
 ** Drc report for /github/workspace/bbbalarm.kicad_pcb **
-** Created on 2021-07-04 13:04:18 **
+** Created on 2022-07-02 01:15:07 **
 
-** Found 0 DRC errors **
+** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
 
 ** End of Report **
