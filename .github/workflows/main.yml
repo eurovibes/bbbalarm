@@ -38,6 +38,9 @@ jobs:
     - name: Create downloads directory
       run: mkdir downloads
 
+    - name: Fix ownership
+      run: sudo chown $(whoami) Fabrication
+
     - name: Gerber Archive
       uses: thedoctor0/zip-release@master
       with:
