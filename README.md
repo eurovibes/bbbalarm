@@ -10,7 +10,7 @@ The Beaglobone Black is a TI Sitara AM3359 ARM Cortex-A8 CPU based
 evaluation board with two 40pin 100mil pinsockets. These pinsockets
 can be used for additional functionality boards called capes.
 The bbbalarm cape enhance the Beaglebone Black by adding coupled and
-decoupled inputs, taht can be used to supervise an air condition or read out
+decoupled inputs, that can be used to supervise an air condition or read out
 a presence detector.
 
 ## License rules
