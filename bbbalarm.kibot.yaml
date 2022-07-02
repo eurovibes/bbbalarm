@@ -15,6 +15,7 @@ global:
 import:
   - configs/FusionPCB.kibot.yaml
   - configs/JLCPCB.kibot.yaml
+  - configs/JLCPCB_position.kibot.yaml
 
 filters:
  - name: 'exclude_any'
